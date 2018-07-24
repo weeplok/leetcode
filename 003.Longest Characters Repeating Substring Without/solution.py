@@ -4,19 +4,8 @@ class Solution:
         :type s: str
         :rtype: int
         """
-        # if s=="":
-        #     return 0
-        # max_num = 1
-        # for i in range(len(s)):
-        #     for shift in range(1,len(s)-i+1):
-        #         child_str = s[i:i+shift]
-        #         if shift==len(set(child_str)) and shift>max_num:
-        #             max_num = shift
-        
-        # return max_num 
 
-        i = 0
-        j= 0 
+        i = 0; j = 0 
         char_set = set()
         ans = 1 
         while(i<len(s) and j<len(s)):
