@@ -20,4 +20,5 @@ class Solution:
         return None 
 
 if __name__=="__main__":
+    
     assert(Solution().twoSum(nums=[1,2,3,6,8],target=5)==[1,2])
